@@ -8,8 +8,8 @@ resource "aws_instance" "mySonarInstance" {
       }
     }
 
- resource "aws_security_group" "sonar-sg-2022" {
-      name        = "security_sonar_group_2022"
+ resource "aws_security_group" "sonar-sg-2025" {
+      name        = "security_sonar_group_2025"
       description = "security group for Sonar"
 
       ingress {
